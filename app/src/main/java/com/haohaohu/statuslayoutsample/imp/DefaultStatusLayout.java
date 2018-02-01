@@ -1,10 +1,10 @@
-package com.iss.statuslayoutsample.imp;
+package com.haohaohu.statuslayoutsample.imp;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.iss.statuslayout.BaseStatusLayout;
-import com.iss.statuslayout.IStatusExtLayout;
+import com.haohaohu.statuslayout.BaseStatusLayout;
+import com.haohaohu.statuslayout.IStatusExtLayout;
 
 /**
  * @author haohao on 2017/6/19 15:27

@@ -1,11 +1,11 @@
-package com.iss.statuslayout;
+package com.haohaohu.statuslayout;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;
-import com.iss.statuslayout.impl.SimpleStatusChangeListener;
+import com.haohaohu.statuslayout.impl.SimpleStatusChangeListener;
 
 /**
  * 状态布局

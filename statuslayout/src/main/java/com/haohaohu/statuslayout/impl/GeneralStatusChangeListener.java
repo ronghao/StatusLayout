@@ -1,6 +1,6 @@
-package com.iss.statuslayout.impl;
+package com.haohaohu.statuslayout.impl;
 
-import com.iss.statuslayout.IStatusChangeListener;
+import com.haohaohu.statuslayout.IStatusChangeListener;
 
 public abstract class GeneralStatusChangeListener implements IStatusChangeListener {
     public GeneralStatusChangeListener() {

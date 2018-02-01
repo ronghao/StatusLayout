@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.iss.statuslayoutsample.MainActivity"
+    tools:context="com.haohaohu.statuslayoutsample.MainActivity"
     >
 
-  <com.iss.statuslayout.StatusLayout
+  <com.haohaohu.statuslayout.StatusLayout
       android:id="@+id/status_layout"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
@@ -27,6 +27,6 @@
           android:layout_centerInParent="true"
           />
     </RelativeLayout>
-  </com.iss.statuslayout.StatusLayout>
+  </com.haohaohu.statuslayout.StatusLayout>
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.iss.statuslayout;
+package com.haohaohu.statuslayoutsample;
 
 import org.junit.Test;
 

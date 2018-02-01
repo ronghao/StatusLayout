@@ -1,4 +1,4 @@
-package com.iss.statuslayout;
+package com.haohaohu.statuslayout;
 
 import android.content.Context;
 import android.util.AttributeSet;

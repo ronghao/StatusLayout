@@ -1,6 +1,6 @@
-package com.iss.statuslayout.impl;
+package com.haohaohu.statuslayout.impl;
 
-import com.iss.statuslayout.IStatusChangeListener;
+import com.haohaohu.statuslayout.IStatusChangeListener;
 
 /**
  * @author haohao on 2017/9/6 上午 10:38

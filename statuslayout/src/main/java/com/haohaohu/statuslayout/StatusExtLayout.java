@@ -1,4 +1,4 @@
-package com.iss.statuslayout;
+package com.haohaohu.statuslayout;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

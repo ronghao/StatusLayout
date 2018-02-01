@@ -1,13 +1,13 @@
-package com.iss.statuslayoutsample.imp;
+package com.haohaohu.statuslayoutsample.imp;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.iss.statuslayout.IStatusChangeListener;
-import com.iss.statuslayout.IStatusExtLayout;
-import com.iss.statuslayoutsample.R;
+import com.haohaohu.statuslayout.IStatusChangeListener;
+import com.haohaohu.statuslayout.IStatusExtLayout;
+import com.haohaohu.statuslayoutsample.R;
 
 import static android.view.View.INVISIBLE;
 import static android.view.View.VISIBLE;

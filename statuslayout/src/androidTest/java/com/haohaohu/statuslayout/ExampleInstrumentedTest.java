@@ -1,4 +1,4 @@
-package com.iss.statuslayoutsample;
+package com.haohaohu.statuslayout;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.iss.statuslayoutsample", appContext.getPackageName());
+        assertEquals("com.iss.statuslayout.test", appContext.getPackageName());
     }
 }
