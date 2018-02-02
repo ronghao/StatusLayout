@@ -13,6 +13,8 @@ import static android.view.View.INVISIBLE;
 import static android.view.View.VISIBLE;
 
 /**
+ * 自定义状态效果
+ *
  * @author haohao on 2017/6/19 15:28
  * @version v1.0
  */

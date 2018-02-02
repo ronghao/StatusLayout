@@ -6,10 +6,21 @@
     tools:context="com.haohaohu.statuslayoutsample.MainActivity"
     >
 
+  <TextView
+      android:id="@+id/status_btn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:padding="10dp"
+      android:text="DefaultActivity"
+      android:onClick="onDefaultClick"
+      />
+
   <com.haohaohu.statuslayout.StatusLayout
       android:id="@+id/status_layout"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
+      android:layout_below="@id/status_btn"
       tools:layout_editor_absoluteX="8dp"
       tools:layout_editor_absoluteY="8dp"
       >
@@ -28,5 +39,6 @@
           />
     </RelativeLayout>
   </com.haohaohu.statuslayout.StatusLayout>
+
 
 </RelativeLayout>

@@ -1,28 +1,27 @@
-package com.haohaohu.statuslayoutsample;
+package com.haohaohu.statuslayoutsample.imp;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import com.haohaohu.statuslayout.IStatusChangeListener;
 import com.haohaohu.statuslayout.StatusLayout;
-import com.haohaohu.statuslayoutsample.imp.DefaultActivity;
+import com.haohaohu.statuslayoutsample.R;
 
-public class MainActivity extends AppCompatActivity {
+public class DefaultActivity extends AppCompatActivity {
 
-    private StatusLayout mStatusLayout;
+    private DefaultStatusLayout mStatusLayout;
     private TextView mText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_default_main);
         init();
     }
 
     private void init() {
-        mStatusLayout = (StatusLayout) findViewById(R.id.status_layout);
+        mStatusLayout = (DefaultStatusLayout) findViewById(R.id.default_status_layout);
         mText = (TextView) findViewById(R.id.text);
 
         mStatusLayout.setStatusListener(new IStatusChangeListener() {
@@ -65,11 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 mStatusLayout.showError();
             }
         }, 3000);
-        mStatusLayout.showLoading();
-    }
 
-    public void onDefaultClick(View view) {
-        Intent intent = new Intent(MainActivity.this, DefaultActivity.class);
-        startActivity(intent);
+        mStatusLayout.showLoading();
     }
 }
