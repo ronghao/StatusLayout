@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.haohaohu.statuslayout.interfaces.IStatusChangeListener;
-import com.haohaohu.statuslayout.interfaces.IStatusExtLayout;
+import com.haohaohu.statuslayout.base.BaseStatusExtLayout;
 import com.haohaohu.statuslayoutsample.R;
 
 import static android.view.View.INVISIBLE;
@@ -18,7 +18,7 @@ import static android.view.View.VISIBLE;
  * @author haohao on 2017/6/19 15:28
  * @version v1.0
  */
-public class DefaultStatusExtLayout implements IStatusExtLayout {
+public class DefaultStatusExtLayout extends BaseStatusExtLayout {
     private RelativeLayout mLayout;
     private TextView mLoadingText;
     private TextView mErrorText;

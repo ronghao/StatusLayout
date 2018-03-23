@@ -3,8 +3,8 @@ package com.haohaohu.statuslayoutsample.imp;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.haohaohu.statuslayout.BaseStatusLayout;
-import com.haohaohu.statuslayout.interfaces.IStatusExtLayout;
+import com.haohaohu.statuslayout.base.BaseStatusLayout;
+import com.haohaohu.statuslayout.base.BaseStatusExtLayout;
 
 /**
  * @author haohao on 2017/6/19 15:27
@@ -24,7 +24,7 @@ public class DefaultStatusLayout extends BaseStatusLayout {
     }
 
     @Override
-    public IStatusExtLayout getStatusExtLayout() {
+    public BaseStatusExtLayout getStatusExtLayout() {
         return new DefaultStatusExtLayout(getContext());
     }
 }
