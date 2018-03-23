@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.haohaohu.statuslayout.interfaces.IStatusChangeListener;
+import com.haohaohu.statuslayout.interfaces.IStatusExtLayout;
+
 import static android.view.View.INVISIBLE;
 import static android.view.View.VISIBLE;
 

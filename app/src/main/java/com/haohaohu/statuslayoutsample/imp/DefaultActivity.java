@@ -4,8 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
-import com.haohaohu.statuslayout.IStatusChangeListener;
-import com.haohaohu.statuslayout.StatusLayout;
+import com.haohaohu.statuslayout.interfaces.IStatusChangeListener;
 import com.haohaohu.statuslayoutsample.R;
 
 public class DefaultActivity extends AppCompatActivity {

@@ -5,7 +5,10 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;
-import com.haohaohu.statuslayout.impl.SimpleStatusChangeListener;
+
+import com.haohaohu.statuslayout.impl.SampleStatusChangeListener;
+import com.haohaohu.statuslayout.interfaces.IStatusChangeListener;
+import com.haohaohu.statuslayout.interfaces.IStatusExtLayout;
 
 /**
  * 状态布局
@@ -16,7 +19,9 @@ import com.haohaohu.statuslayout.impl.SimpleStatusChangeListener;
  */
 public abstract class BaseStatusLayout extends RelativeLayout {
 
-    //被包含子控件
+    /**
+     * 被包含子控件
+     */
     protected View mChildView;
 
     private IStatusExtLayout mStatusExtLayout;
@@ -44,11 +49,9 @@ public abstract class BaseStatusLayout extends RelativeLayout {
         LayoutParams params =
                 new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
         addView(mStatusExtLayout.getView(), params);
-        mListener = new SimpleStatusChangeListener();
+        mListener = new SampleStatusChangeListener();
         mStatusExtLayout.setStatusChangeListener(mListener);
     }
-
-    public abstract IStatusExtLayout getStatusExtLayout();
 
     public void setStatusListener(IStatusChangeListener mListener) {
         this.mListener = mListener;
@@ -107,4 +110,11 @@ public abstract class BaseStatusLayout extends RelativeLayout {
     public void destroy() {
         if (mStatusExtLayout != null) mStatusExtLayout.destroy();
     }
+
+    /**
+     * 获取状态布局
+     *
+     * @return 自定义StatusExtLayout实现类
+     */
+    public abstract IStatusExtLayout getStatusExtLayout();
 }

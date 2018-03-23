@@ -1,4 +1,4 @@
-package com.haohaohu.statuslayout;
+package com.haohaohu.statuslayout.interfaces;
 
 import android.view.View;
 

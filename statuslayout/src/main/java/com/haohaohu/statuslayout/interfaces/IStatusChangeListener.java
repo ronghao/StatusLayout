@@ -1,7 +1,7 @@
-package com.haohaohu.statuslayout;
+package com.haohaohu.statuslayout.interfaces;
 
 /**
- * 状态回调接口
+ * 状态变化的回调接口
  *
  * @author haohao on 2017/6/19 14:36
  * @version v1.0

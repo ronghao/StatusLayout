@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 
 import com.haohaohu.statuslayout.BaseStatusLayout;
-import com.haohaohu.statuslayout.IStatusExtLayout;
+import com.haohaohu.statuslayout.interfaces.IStatusExtLayout;
 
 /**
  * @author haohao on 2017/6/19 15:27
