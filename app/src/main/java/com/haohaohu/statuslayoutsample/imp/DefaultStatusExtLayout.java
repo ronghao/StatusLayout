@@ -27,10 +27,10 @@ public class DefaultStatusExtLayout extends BaseStatusExtLayout {
 
     DefaultStatusExtLayout(Context context) {
         mLayout = (RelativeLayout) LayoutInflater.from(context).
-                inflate(R.layout.layout_extstatus, null);
+                inflate(R.layout.layout_extstatus_default, null);
 
-        mLoadingText = (TextView) mLayout.findViewById(R.id.status_ext_loading);
-        mErrorText = (TextView) mLayout.findViewById(R.id.status_ext_error);
+        mLoadingText = (TextView) mLayout.findViewById(R.id.status_ext_loading_default);
+        mErrorText = (TextView) mLayout.findViewById(R.id.status_ext_error_default);
         mErrorText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

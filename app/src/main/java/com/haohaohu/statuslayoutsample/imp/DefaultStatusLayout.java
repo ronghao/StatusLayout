@@ -7,6 +7,8 @@ import com.haohaohu.statuslayout.base.BaseStatusLayout;
 import com.haohaohu.statuslayout.base.BaseStatusExtLayout;
 
 /**
+ * 自定义状态布局
+ *
  * @author haohao on 2017/6/19 15:27
  * @version v1.0
  */

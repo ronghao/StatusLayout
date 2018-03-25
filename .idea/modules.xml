@@ -3,11 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StatusLayout.iml" filepath="$PROJECT_DIR$/StatusLayout.iml" />
-      <module fileurl="file://C:\code\git\me\StatusLayout\StatusLayout.iml" filepath="C:\code\git\me\StatusLayout\StatusLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\code\git\me\StatusLayout\app\app.iml" filepath="C:\code\git\me\StatusLayout\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/statuslayout/statuslayout.iml" filepath="$PROJECT_DIR$/statuslayout/statuslayout.iml" />
-      <module fileurl="file://C:\code\git\me\StatusLayout\statuslayout\statuslayout.iml" filepath="C:\code\git\me\StatusLayout\statuslayout\statuslayout.iml" />
     </modules>
   </component>
 </project>

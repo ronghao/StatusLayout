@@ -4,21 +4,20 @@
     android:layout_height="match_parent"
     >
 
-
   <TextView
-      android:id="@+id/status_ext_loading"
+      android:id="@+id/status_ext_loading_default"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_centerInParent="true"
-      android:text="Default加载中"
+      android:text="自定义样式加载中"
       />
 
   <TextView
-      android:id="@+id/status_ext_error"
+      android:id="@+id/status_ext_error_default"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_centerInParent="true"
-      android:text="Default加载错误，点击重试"
+      android:text="自定义样式加载错误，点击重试"
       />
 
 

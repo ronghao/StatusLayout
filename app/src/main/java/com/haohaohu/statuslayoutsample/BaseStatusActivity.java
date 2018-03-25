@@ -1,26 +1,27 @@
-package com.haohaohu.statuslayoutsample.imp;
+package com.haohaohu.statuslayoutsample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+
+import com.haohaohu.statuslayout.StatusLayout;
 import com.haohaohu.statuslayout.interfaces.IStatusChangeListener;
-import com.haohaohu.statuslayoutsample.R;
 
-public class DefaultActivity extends AppCompatActivity {
+public class BaseStatusActivity extends AppCompatActivity {
 
-    private DefaultStatusLayout mStatusLayout;
+    private StatusLayout mStatusLayout;
     private TextView mText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_default_status);
+        setContentView(R.layout.activity_base_status);
         init();
     }
 
     private void init() {
-        mStatusLayout = (DefaultStatusLayout) findViewById(R.id.default_status_layout);
+        mStatusLayout = (StatusLayout) findViewById(R.id.status_layout);
         mText = (TextView) findViewById(R.id.text);
 
         mStatusLayout.setStatusListener(new IStatusChangeListener() {
@@ -63,7 +64,7 @@ public class DefaultActivity extends AppCompatActivity {
                 mStatusLayout.showError();
             }
         }, 3000);
-
         mStatusLayout.showLoading();
     }
+
 }

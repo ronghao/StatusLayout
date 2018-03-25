@@ -11,34 +11,20 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:gravity="center"
+      android:onClick="onBaseClick"
       android:padding="10dp"
-      android:text="DefaultActivity"
-      android:onClick="onDefaultClick"
+      android:text="默认样式"
       />
 
-  <com.haohaohu.statuslayout.StatusLayout
-      android:id="@+id/status_layout"
+  <TextView
+      android:id="@+id/status_btn_1"
       android:layout_width="match_parent"
-      android:layout_height="match_parent"
+      android:layout_height="wrap_content"
       android:layout_below="@id/status_btn"
-      tools:layout_editor_absoluteX="8dp"
-      tools:layout_editor_absoluteY="8dp"
-      >
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/holo_green_dark"
-        >
-
-      <TextView
-          android:id="@+id/text"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_centerInParent="true"
-          />
-    </RelativeLayout>
-  </com.haohaohu.statuslayout.StatusLayout>
-
+      android:gravity="center"
+      android:onClick="onDefaultClick"
+      android:padding="10dp"
+      android:text="自定义样式"
+      />
 
 </RelativeLayout>
