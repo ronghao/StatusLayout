@@ -6,10 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import com.haohaohu.statuslayout.R;
-import com.haohaohu.statuslayout.interfaces.IStatusChangeListener;
 import com.haohaohu.statuslayout.base.BaseStatusExtLayout;
+import com.haohaohu.statuslayout.interfaces.IStatusChangeListener;
 
 import static android.view.View.INVISIBLE;
 import static android.view.View.VISIBLE;

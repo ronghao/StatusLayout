@@ -12,6 +12,8 @@ import com.haohaohu.statuslayout.interfaces.IStatusChangeListener;
 /**
  * 状态布局
  * 加载中、加载成功、加载失败+ 被包含子控件
+ * 分离原因：加载中加载失败界面与逻辑控制分离;页面添加view时一般不需要修改，自定义界面、控制错误界面显示、控制加载界面显示的修改较大
+ * 为什么不通过接口注册动态实现界面注入：界面需要在布局onCreate时添加到viewgroup中
  *
  * @author haohao on 2017/6/19 13:46
  * @version v1.0

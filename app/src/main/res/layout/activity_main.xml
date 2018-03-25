@@ -27,4 +27,16 @@
       android:text="自定义样式"
       />
 
+  <TextView
+      android:id="@+id/status_btn_2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/status_btn_1"
+      android:gravity="center"
+      android:onClick="onDefaultProgressClick"
+      android:padding="10dp"
+      android:text="自定义样式+进度"
+      />
+
+
 </RelativeLayout>

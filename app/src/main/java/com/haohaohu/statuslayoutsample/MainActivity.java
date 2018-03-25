@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.haohaohu.statuslayoutsample.imp.DefaultActivity;
+import com.haohaohu.statuslayoutsample.imp.DefaultStatusProgressActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onDefaultClick(View view) {
         Intent intent = new Intent(MainActivity.this, DefaultActivity.class);
+        startActivity(intent);
+    }
+
+    public void onDefaultProgressClick(View view) {
+        Intent intent = new Intent(MainActivity.this, DefaultStatusProgressActivity.class);
         startActivity(intent);
     }
 }
