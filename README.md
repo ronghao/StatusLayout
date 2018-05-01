@@ -14,7 +14,7 @@
 	- 加载失败
 	- 加载成功后应该显示的子布局
 
-### 带进度条的布局【参见 [DefaultStatusProgressLayout](https://github.com/ronghao/StatusLayout/blob/master/app/src/main/java/com/haohaohu/statuslayoutsample/imp/DefaultStatusProgressLayout.java)】
+### 带进度条的布局【示例代码】【参见 [DefaultStatusProgressLayout](https://github.com/ronghao/StatusLayout/blob/master/app/src/main/java/com/haohaohu/statuslayoutsample/imp/DefaultStatusProgressLayout.java)】
 - 根节点
 	- 加载中
 	- 加载失败
