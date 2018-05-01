@@ -2,9 +2,8 @@ package com.haohaohu.statuslayout;
 
 import android.content.Context;
 import android.util.AttributeSet;
-
-import com.haohaohu.statuslayout.base.BaseStatusLayout;
 import com.haohaohu.statuslayout.base.BaseStatusExtLayout;
+import com.haohaohu.statuslayout.base.BaseStatusLayout;
 
 /**
  * 示例StatusLayout，继承BaseStatusLayout

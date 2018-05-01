@@ -14,7 +14,7 @@
 	- 加载失败
 	- 加载成功后应该显示的子布局
 
-### 带进度条的布局
+### 带进度条的布局【参见 [DefaultStatusProgressLayout](https://github.com/ronghao/StatusLayout/blob/master/app/src/main/java/com/haohaohu/statuslayoutsample/imp/DefaultStatusProgressLayout.java)】
 - 根节点
 	- 加载中
 	- 加载失败
@@ -44,15 +44,12 @@ dependencies {
 
 # 版本
 - 1.0.1
-	- 添加子布局覆盖半透明布局
+	- [demo中]添加子布局覆盖半透明布局
 - 1.0.0
 	- 实现多状态管理（网络加载中、网络错误状态、网络正确状态）
 	- 状态变化的回调监听
 	- 网络错误状态，点击错误界面重新请求（和上面的回调接口组合到一起）
 
-
-# 待开发
-- 添加进度布局覆盖最上层
 
 # 关于
 + 个人博客：[www.haohaohu.com](http://www.haohaohu.com/)

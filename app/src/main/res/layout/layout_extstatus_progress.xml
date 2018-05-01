@@ -10,7 +10,8 @@
       android:layout_height="wrap_content"
       android:layout_centerInParent="true"
       android:gravity="center"
-      android:text="网络加载中"
+      android:paddingTop="80dp"
+      android:text="网络加载中,不可点击"
       android:textColor="@color/green_dark"
       android:textSize="12sp"
       />

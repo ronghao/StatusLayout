@@ -2,11 +2,12 @@ package com.haohaohu.statuslayoutsample.imp;
 
 import android.content.Context;
 import android.util.AttributeSet;
-
 import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.RelativeLayout;
-import com.haohaohu.statuslayout.base.BaseStatusLayout;
+import android.widget.Toast;
 import com.haohaohu.statuslayout.base.BaseStatusExtLayout;
+import com.haohaohu.statuslayout.base.BaseStatusLayout;
 import com.haohaohu.statuslayoutsample.R;
 
 /**
@@ -42,6 +43,13 @@ public class DefaultStatusProgressLayout extends BaseStatusLayout {
         LayoutParams params =
                 new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
         addView(mProgress, params);
+
+        mProgress.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getContext(), "网络加载中", Toast.LENGTH_SHORT).show();
+            }
+        });
         super.initStatus();
     }
 
@@ -54,7 +62,7 @@ public class DefaultStatusProgressLayout extends BaseStatusLayout {
     @Override
     public void showLoading() {
         super.showLoading();
-        mProgress.setVisibility(GONE);
+        mProgress.setVisibility(VISIBLE);
     }
 
     @Override
@@ -65,5 +73,9 @@ public class DefaultStatusProgressLayout extends BaseStatusLayout {
 
     public void showProgress() {
         mProgress.setVisibility(VISIBLE);
+    }
+
+    public void hideProgress() {
+        mProgress.setVisibility(GONE);
     }
 }

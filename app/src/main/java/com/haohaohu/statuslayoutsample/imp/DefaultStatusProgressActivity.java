@@ -2,7 +2,6 @@ package com.haohaohu.statuslayoutsample.imp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.TextView;
 import com.haohaohu.statuslayout.interfaces.IStatusChangeListener;
 import com.haohaohu.statuslayoutsample.R;
@@ -27,17 +26,10 @@ public class DefaultStatusProgressActivity extends AppCompatActivity {
             @Override
             public void onSuccess() {
                 mText.setText("加载成功");
-                mText.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        mStatusLayout.showProgress();
-                    }
-                });
             }
 
             @Override
             public void onLoading() {
-
             }
 
             @Override
